@@ -22,7 +22,7 @@ require("./config")(app);
 const capitalized = require("./utils/capitalized");
 const projectName = "tweettier";
 
-app.locals.appTitle = `${capitalized(projectName)} created with RootLauncher`;
+app.locals.appTitle = `${capitalized(projectName)} created with RootLauncher v2`;
 
 // 👇 Start handling routes here
 const index = require("./routes/index.routes");
